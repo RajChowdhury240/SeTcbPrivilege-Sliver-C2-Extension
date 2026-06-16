@@ -1,0 +1,18 @@
+{
+  "name": "SeTcbPrivilege",
+  "command_name": "tcb",
+  "version": "1.1.0",
+  "extension_author": "Raj-Chowdhury",
+  "original_author": "XCT and Doge",
+  "repo_url": "https://github.com/CharminDoge/tcb-lpe",
+  "help": "SeTcbPrivilege local privilege escalation to SYSTEM",
+  "long_help": "Enables SeTcbPrivilege, hooks AcquireCredentialsHandleW to spoof SYSTEM LUID, creates/starts a Windows service running the specified command as SYSTEM. Usage: tcb -- \"C:\\Windows\\system32\\cmd.exe /c whoami\"",
+  "entrypoint": "entrypoint",
+  "files": [
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "path": "tcb.x64.dll"
+    }
+  ]
+}
