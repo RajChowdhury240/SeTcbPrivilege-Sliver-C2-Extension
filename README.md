@@ -78,4 +78,4 @@ make build
 ## Credits
 
 - [@splinter_code](https://gist.github.com/antonioCoco/19563adef860614b56d010d92e67d178) and [@decoder_it](https://gist.github.com/antonioCoco/19563adef860614b56d010d92e67d178) — original SeTcbPrivilege PoC
-- [CharminDoge/tcb-lpe](https://github.com/CharminDoge/tcb-lpe) — original Sliver extension
+- [CharminDoge/tcb-lpe](https://github.com/CharminDoge/tcb-lpe) — original Golang Port of this exploit.
