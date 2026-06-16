@@ -1,6 +1,8 @@
 # SeTcbPrivilege-Sliver-C2-Extension
 
-Sliver C2 extension for Windows local privilege escalation via `SeTcbPrivilege` abuse. Enables `SeTcbPrivilege`, hooks `AcquireCredentialsHandleW` to spoof the SYSTEM LUID, then creates/starts a Windows service running an arbitrary command as **NT AUTHORITY\SYSTEM**.
+Sliver C2 extension for Windows local privilege escalation via `SeTcbPrivilege` abuse.
+Enables `SeTcbPrivilege`, hooks `AcquireCredentialsHandleW` to spoof the SYSTEM LUID, 
+then creates/starts a Windows service running an arbitrary command as **NT AUTHORITY\SYSTEM**.
 
 Forked from [CharminDoge/tcb-lpe](https://github.com/CharminDoge/tcb-lpe). Original authors: [@splinter_code](https://gist.github.com/antonioCoco/19563adef860614b56d010d92e67d178) and [@decoder_it](https://gist.github.com/antonioCoco/19563adef860614b56d010d92e67d178).
 
